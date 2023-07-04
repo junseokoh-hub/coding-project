@@ -1,0 +1,28 @@
+.notfound {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound h1 {
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+}
+
+.notfound a {
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #fff;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration-line: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.notfound a:hover {
+  color: #000;
+  background-color: #fff;
+}

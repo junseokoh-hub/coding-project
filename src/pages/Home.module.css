@@ -1,0 +1,24 @@
+.home {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home h2 {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .home h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home h2 {
+    font-size: 1.2rem;
+  }
+}

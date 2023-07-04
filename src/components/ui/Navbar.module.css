@@ -1,0 +1,34 @@
+.header {
+  padding: 2rem 1rem 1rem 1rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header nav {
+  width: 50%;
+}
+
+.link__container {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.link__container li {
+  margin-right: 4rem;
+}
+
+.link__container li a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration-line: none;
+}
+
+@media screen and (max-width: 768px) {
+  .link__container li a {
+    font-size: 1rem;
+  }
+}

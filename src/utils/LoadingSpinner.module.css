@@ -1,0 +1,20 @@
+.loading__spinner {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  border: 10px solid teal;
+  border-radius: 50%;
+  border-top: 10px solid #fff;
+  animation: rotating 1s linear infinite;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
